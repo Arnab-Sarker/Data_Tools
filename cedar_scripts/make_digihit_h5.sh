@@ -10,14 +10,14 @@
 
 ulimit -c 0
 
-source /project/rpp-blairt2k/machine_learning/production_software/DataTools/cedar_scripts/sourceme.sh
+source /home/arnabs/scratch/Data_Tools/cedar_scripts/sourceme.sh
 
 virtualenv --no-download $SLURM_TMPDIR/env
 source $SLURM_TMPDIR/env/bin/activate
 pip install --no-index --upgrade pip
 pip install --no-index h5py
 
-cd /project/rpp-blairt2k/machine_learning/production_software/DataTools/root_utils/
+cd /home/arnabs/scratch/Data_Tools/root_utils
 
 # initially save to SLURM_TMPDIR for speed
 #args=("$@")
