@@ -31,7 +31,8 @@ cd /home/arnabs/scratch/Data_Tools/root_utils
 #done
 
 echo "python np_to_digihit_array_hdf5.py $@"
-python np_to_digihit_array_hdf5.py "$@"
+#python np_to_digihit_array_hdf5.py "$@"
+python np_to_digihit_array_hdf5.py -o "/home/arnabs/scratch/output/e_mu_e-_E100to1000MeV_fix-pos-x0-y0-z0cm_2pi-dir_100evts_0.h5" -H 136 -R 172 /home/arnabs/scratch/output/e_mu/numpy/e-/E100to1000MeV/fix-pos-x0-y0-z0cm/2pi-dir/e_mu_e-_E100to1000MeV_fix-pos-x0-y0-z0cm_2pi-dir_100evts_0.npz
 
 #echo "cp $tmpfile $outfile"
 #cp "$tmpfile" "$outfile"
