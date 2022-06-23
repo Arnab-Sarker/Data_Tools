@@ -1,0 +1,24 @@
+Using base prefix '/cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/python/3.6.3'
+New python executable in /localscratch/arnabs.37187331.0/env/bin/python
+Installing setuptools, pip, wheel...done.
+Collecting pip
+Installing collected packages: pip
+  Found existing installation: pip 9.0.1
+    Uninstalling pip-9.0.1:
+      Successfully uninstalled pip-9.0.1
+Successfully installed pip-21.2.3+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/h5py-3.1.0+computecanada-cp36-cp36m-linux_x86_64.whl
+Requirement already satisfied: numpy>=1.12 in /cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/scipy-stack/2019a/lib/python3.6/site-packages (from h5py) (1.16.0)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cached_property-1.5.2+computecanada-py2.py3-none-any.whl
+Installing collected packages: cached-property, h5py
+Successfully installed cached-property-1.5.2+computecanada h5py-3.1.0+computecanada
+python np_to_digihit_array_hdf5.py 
+ouput file: /home/arnabs/scratch/output/e_mu_e-_E100to1000MeV_fix-pos-x0-y0-z0cm_2pi-dir_100evts_0.h5
+git describe for path to this script (/scratch/arnabs/Data_Tools/root_utils): ba05ba1
+counting events and hits, in files
+/home/arnabs/scratch/output/e_mu/numpy/e-/E100to1000MeV/fix-pos-x0-y0-z0cm/2pi-dir/e_mu_e-_E100to1000MeV_fix-pos-x0-y0-z0cm_2pi-dir_100evts_0.npz
+1 files with 100 events with  248693 hits
+100 events with at least 1 hits for a total of 248693 hits
+/home/arnabs/scratch/output/e_mu/numpy/e-/E100to1000MeV/fix-pos-x0-y0-z0cm/2pi-dir/e_mu_e-_E100to1000MeV_fix-pos-x0-y0-z0cm_2pi-dir_100evts_0.npz
+saved 248693 hits in 100 good events (each with at least 1 hits)
