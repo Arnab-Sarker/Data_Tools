@@ -27,10 +27,9 @@ The following dependent module(s) are not currently loaded: gcccore/.5.4.0 (requ
 -------------------------------------------------------------------------------
 Ignoring pip: markers 'python_version < "3"' don't match your environment
 Traceback (most recent call last):
-  File "np_to_digihit_array_hdf5.py", line 23, in <module>
-    f = h5py.File(config.output_file, 'w')
-  File "/localscratch/arnabs.37183884.0/env/lib/python3.6/site-packages/h5py/_hl/files.py", line 412, in __init__
-    name = filename_encode(name)
-  File "/localscratch/arnabs.37183884.0/env/lib/python3.6/site-packages/h5py/_hl/compat.py", line 19, in filename_encode
-    filename = fspath(filename)
-TypeError: expected str, bytes or os.PathLike object, not NoneType
+  File "np_to_digihit_array_hdf5.py", line 28, in <module>
+    raise Exception("Directory of this script ({}) is not a clean git directory:\n{}Need a clean git directory for storing script version in output file.".format(script_path, git_status))
+Exception: Directory of this script (/scratch/arnabs/Data_Tools/root_utils) is not a clean git directory:
+ M cedar_scripts/make_digihit_h5.sh-4294967294.err
+ M cedar_scripts/make_digihit_h5.sh-4294967294.out
+Need a clean git directory for storing script version in output file.
